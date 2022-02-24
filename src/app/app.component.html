@@ -36,33 +36,99 @@
 <main>
   <section>
     <article>
-      <div>
+      <div class="lista">
         <h2>Ruinas</h2>
         <div>
-          <img src="" alt="">
-          <div>
+          <div class="imgContenedor">
+            <img src="./assets/imgdb/ruinas/ruinabd1.jpg" alt="">
+          </div>
+          <div class="txtContenedor">
             <h4>Ruina 1</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
               voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div>
-              <button type="button" name="button">X</button>
-              <button type="button" name="button">/</button>
+              <button type="button" name="button"><i class="bi bi-trash3-fill"></i></button>
+              <button type="button" name="button"><i class="bi bi-pencil-fill"></i></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="imgContenedor">
+            <img src="./assets/imgdb/ruinas/ruinabd1.jpg" alt="">
+          </div>
+          <div class="txtContenedor">
+            <h4>Ruina 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+              <button type="button" name="button"><i class="bi bi-trash3-fill"></i></button>
+              <button type="button" name="button"><i class="bi bi-pencil-fill"></i></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="imgContenedor">
+            <img src="./assets/imgdb/ruinas/ruinabd1.jpg" alt="">
+          </div>
+          <div class="txtContenedor">
+            <h4>Ruina 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+              <button type="button" name="button"><i class="bi bi-trash3-fill"></i></button>
+              <button type="button" name="button"><i class="bi bi-pencil-fill"></i></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="imgContenedor">
+            <img src="./assets/imgdb/ruinas/ruinabd1.jpg" alt="">
+          </div>
+          <div class="txtContenedor">
+            <h4>Ruina 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+              <button type="button" name="button"><i class="bi bi-trash3-fill"></i></button>
+              <button type="button" name="button"><i class="bi bi-pencil-fill"></i></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="imgContenedor">
+            <img src="./assets/imgdb/ruinas/ruinabd1.jpg" alt="">
+          </div>
+          <div class="txtContenedor">
+            <h4>Ruina 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+              <button type="button" name="button"><i class="bi bi-trash3-fill"></i></button>
+              <button type="button" name="button"><i class="bi bi-pencil-fill"></i></button>
             </div>
           </div>
         </div>
       </div>
     </article>
     <article>
-      <form action="index.html" method="post">
+      <form class="formulario" action="" method="POST">
         <h2>Gestión de Ruinas</h2>
-        <input type="text" name="" value=""><br />
-        <textarea name="name"></textarea>
+        <input type="text" name="nombre" placeholder="Nombre..." required>
+        <textarea name="descripcion" placeholder="Descripción..." required></textarea>
         <div>
-          <input type="submit" name="" value="ENVIAR">
-          <input type="file" name="" value="">
+          <input type="text" name="lugares[]" value="" placeholder="Lugar de Interés...">
+          <button type="button"><i class="bi bi-plus-lg"></i></button>
         </div>
-      </form>
+        <div>
+          <input type="submit" value="ENVIAR">
+          <input type="file" name="iImagen" value="">
+        </div>
+    </form>
     </article>
   </section>
   <footer>
