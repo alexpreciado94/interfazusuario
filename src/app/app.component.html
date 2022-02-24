@@ -1,11 +1,12 @@
 <header>
   <nav>
     <a href="#"><img src="./assets/logoCaminoIgnaciano.png" alt=""></a>
+    <button name="button" (click)="mostrarMenu()"><i class="bi bi-list"></i></button>
     <ul>
       <li><a href="#">INICIO</a></li>
       <li><a href="#">NOSOTROS</a></li>
       <li><a href="#">CONTACTO</a></li>
-      <li><a href="#"><i class="bi bi-key-fill"></i></a></li>
+      <li><button name="login"><i class="bi bi-key-fill"></i></button></li>
     </ul>
   </nav>
   <aside>
@@ -125,8 +126,8 @@
           <button type="button"><i class="bi bi-plus-lg"></i></button>
         </div>
         <div>
-          <button type="submit" name="submit">ENVIAR</button>
           <input type="file" name="iImagen" value="">
+          <button type="submit" name="submit">ENVIAR</button>
         </div>
     </form>
     </article>
