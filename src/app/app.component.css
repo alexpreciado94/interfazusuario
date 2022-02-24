@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* ======================== LAYOUT ======================== */
+header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+nav{
+  height: 10vh;
+  width: 100%;
+  background-color: #FDBD0D;
+  box-shadow: 3px 3px 5px gray;
+  display: flex;
+  justify-content: space-between;
+}
+aside{
+  height: 90vh;
+  width: 4%;
+  background-color: #FDBD0D;
+  box-shadow: 3px 5px 5px gray;
+}
+main{
+  min-height: 90vh;
+  width: 96%;
+  margin: 10vh auto auto 4%;
+  overflow: hidden;
+}
+section{
+  display: flex;
+}
+article{
+  width: 50%;
+  background-color: red;
+}
+
+/* ======================== HEADER ======================== */
+  nav ul{
+    height: inherit;
+    width: 30%;
+    margin: 0px 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li{
+    height: inherit;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  nav ul li a{
+    border: 3px solid lime;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/* ======================== ASIDE ======================== */
+aside ul{
+  height: inherit;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+aside ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.5s;
+  flex-grow: 1;
+}
+aside ul li:hover{
+  background-color: #FCD165;
+  border-left: 5px solid #39D070;
+}
+aside ul li a{
+  color: white;
+}
+aside ul li span{
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 3px 5px 5px gray;
+  position: absolute;
+  left: 5vw;
+  top: 0%;
+  transform: translateY(-50%);
+  transition: 0s;
+  opacity: 0;
+  pointer-events: none;
+}
+aside ul li:hover span{
+  transition: all 0.5s ease;
+  top: 50%;
+  opacity: 1;
+}
+
+/* ======================== LISTA ======================== */
+main section article div{
+  padding: 2rem;
+}
+
+/* ======================== FORMULARIO ======================== */
+main section article form{
+  padding: 2rem;
+}
